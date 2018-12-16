@@ -1,0 +1,12 @@
+.first{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   width: 12rem;
+   margin: 1rem;
+}
+
+.social-icon{
+     margin: 0.25rem;
+}

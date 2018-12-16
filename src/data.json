@@ -1,0 +1,49 @@
+{
+    "title": "My name is  Mostafa",
+    "kholase": "Full Stack Dev | Open-Source Enthusiast | Blogger | Ninja",
+    "links": {
+        "linkedin": "https://www.linkedin.com/in/paydarsefat/",
+        "Medium": "https://medium.com/@m.sharmsar"
+    },
+    "section": [{
+            "title": "About",
+            "item": [{
+                "type": "p",
+                "content": "`I like JavaScript and everything web."
+
+            }]
+        },
+        {
+            "title": "Skill",
+            "item": [{
+                    "type": "cart",
+                    "content": {
+                        "image": "images/react_js.png",
+                        "title": "React"
+                    }
+                },
+                {
+                    "type": "cart",
+                    "content": {
+                        "image": "images/mysql-512.png",
+                        "title": "Mysql"
+                    }
+
+                },
+                {
+                    "type": "cart",
+                    "content": {
+                        "image": "images/Laravel-512.png",
+                        "title": "Laravel"
+                    }
+                }
+            ]
+        }
+
+    ],
+    "icon": {
+        "down": "images/downicon.png",
+"up": "images/upicon.png"
+    }
+
+}

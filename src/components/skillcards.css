@@ -1,0 +1,31 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    align-items: center;
+    width: 12rem;
+    margin: 1rem;
+    box-shadow: .25s;
+    border-radius: 2px;
+}
+
+.image-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    margin: 1rem;
+}
+
+.skill-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}

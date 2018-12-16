@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -29,4 +29,23 @@
   to {
     transform: rotate(360deg);
   }
+} */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'monospace',sans-serif,Courier;
+}
+
+.icons-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  margin: 10px;
+}
+.h3{
+font-size: 3rem;
 }

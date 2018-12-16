@@ -1,0 +1,29 @@
+.nav {
+        position: fixed;
+        /* background-color: rgba(250, 250, 250, 0.04); */
+        top: 0;
+        width: 100vw;
+        height: 3rem;
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+}
+
+.nav_menu {
+        margin-right: 2rem;
+        display: flex;
+        flex: 1 1;
+        justify-content: flex-end;
+        flex-direction: row;
+}
+
+.nav_change {
+        margin-left: 1rem;
+        /* display: flex; */
+        /* flex: 1 1; */
+        justify-content: flex-start;
+}
+
+.fix {
+        height: 1vh;
+}

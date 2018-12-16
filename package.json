@@ -2,12 +2,21 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Paydarsefat.github.io/resume",
   "dependencies": {
+    "gh": "^1.13.5",
+    "gh-pages": "^2.0.1",
+    "global": "^4.3.2",
+    "pages": "^0.0.16",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react-scripts": "2.1.1",
+    "react-scroll": "^1.7.10",
+    "react-snowstorm": "0.0.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -21,5 +30,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "react-social-icons": "^3.0.0"
+  }
 }
