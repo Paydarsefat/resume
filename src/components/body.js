@@ -35,7 +35,7 @@ export default class Body extends Component {
                 onClick={() => this.changeColor()}
                 style={{ cursor: "pointer" }}
               >
-                ChangeColor
+                ChangeTheme
               </div>
             </div>
           </Navbar>

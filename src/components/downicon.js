@@ -11,8 +11,14 @@ class downicon extends Component {
           flexDirection: "row",
           alignItems: "center",
           justifyContent: "center",
-          transform: "transletY(-10px)",
-          marginBottom: "10px"
+          transform: "transletY(-34px)",
+          marginBottom: "45px",
+          // position: "fixed",
+          // bottom: "0",
+          // alignItems: "center",
+          cursor: "pointer",
+          // textalign: "center",
+          // padding: ".5rem 1rem"
         }}
       >
         <img style={{ maxWidth: "30px" }} src={data.icon.down} alt="" />

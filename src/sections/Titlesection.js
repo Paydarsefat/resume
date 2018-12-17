@@ -15,10 +15,10 @@ export default class Titlesection extends Component {
 
         <Fullpage>
           <div>
-            <h1>{data.title}</h1>
+            <h1 className="Title">{data.title}</h1>
           </div>
-          <div calssName="kholase">
-            <h2>{data.kholase}</h2>
+          <div calssName="abstract">
+            <h2>{data.abstract}</h2>
           </div>
           <div>
             {Object.keys(data.links).map(key => {
@@ -42,8 +42,7 @@ export default class Titlesection extends Component {
             <Downicon />
           </Link>
         </Fullpage>
-
-        <Element name="About" />
+     
       </div>
     );
   }

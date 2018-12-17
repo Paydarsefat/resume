@@ -1,12 +1,12 @@
 .card {
     display: flex;
     flex-direction: column;
-    background-color: aquamarine;
-    align-items: center;
-    width: 12rem;
+    /* background-color: aquamarine; */
+    /* align-items: center; */
+    /* width: 12rem;
     margin: 1rem;
     box-shadow: .25s;
-    border-radius: 2px;
+    border-radius: 2px; */
 }
 
 .image-wrapper {

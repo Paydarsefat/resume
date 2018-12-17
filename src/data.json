@@ -1,9 +1,11 @@
 {
     "title": "My name is  Mostafa",
-    "kholase": "Full Stack Dev | Open-Source Enthusiast | Blogger | Ninja",
+    "abstract": "Full Stack Dev | Open-Source Enthusiast  | Ninja",
     "links": {
         "linkedin": "https://www.linkedin.com/in/paydarsefat/",
-        "Medium": "https://medium.com/@m.sharmsar"
+        "Medium": "https://medium.com/@m.sharmsar",
+        "github": "https://github.com/Paydarsefat",
+        "instagram": "https://www.instagram.com/paydarsefat/"
     },
     "section": [{
             "title": "About",
@@ -43,7 +45,7 @@
     ],
     "icon": {
         "down": "images/downicon.png",
-"up": "images/upicon.png"
+        "up": "images/upicon.png"
     }
 
 }
